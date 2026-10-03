@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Refine · 界面优化"
+  short_description: "网站、Chrome 扩展及 App 的界面美化、体验优化与组件重构"
+  default_prompt: "请使用 $ui-refine 优化当前界面，保留现有业务行为和项目规范，并完成范围内修改与验证。"
