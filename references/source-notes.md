@@ -17,6 +17,7 @@
 | --- | --- | --- |
 | [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/09170eec67eefd46a7ae85de61b40c194020f997) | 冻结源码，MIT | 可选领域/栈检索；不强制替换现有规范 |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill/tree/ce26fc25c0e5e8cab638f883de62d9a86ee5e45b) | 冻结源码，MIT | 可选视觉尺度；按任务采用 |
+| [Oil UI Pro 功能对照](https://github.com/oil-oil/oil-ui) | README 对照表，2026-10-04 核验 | 方向差异检查、任务走查、限轮视觉评审；本技能自行定义评分锚点、硬门槛和停止条件，不复制 Pro 实现 |
 | `apple-design` | 已安装本地技能，未核验上游 commit；入口 SHA-256 `11840b24a11d7f94f39c6aaab074750ae4e4de4ef54ee4b1dd97e16ebd485e61` | 交互手感和减少动态效果；Web 示例需平台适配 |
 | `shadcn-ui` | 已安装本地技能，未核验上游 commit；入口 SHA-256 `2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304` | 当前 React 项目的合适组件原语 |
 | `wxt-browser-extensions` | 已安装本地技能，49 条指引；入口 SHA-256 `a92a1232432bdc613cf495f1abe9e4b24680f151b9be2baabe0ccc575ca15caf` | Chrome 载体、消息/storage、注入与生命周期；纠正 session 与跨重启需求的不一致 |

@@ -35,6 +35,7 @@ description: "Use when a user requests UI polishing, visual or UX audits, interf
 | 样式漂移、重复组件、UI 状态与组件归属 | [重构](references/refactor.md) |
 | 需要专项技能或工具 | [技能引用](references/skill-routing.md)；相关且可用时加载，不作为核心依赖 |
 | 跨页面修改、主要流程改变、评审或取证不完整 | [证据与交付](references/evidence.md) |
+| 用户反馈“不够好看”、方向难定或需要多轮视觉收敛 | [视觉迭代](references/visual-iteration.md) |
 
 ## 实施与收敛
 
