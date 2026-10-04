@@ -123,7 +123,6 @@ flowchart TD
 
 内置参考可以独立执行。只有存在具体知识或工具缺口时，才从 [`references/skill-routing.md`](references/skill-routing.md) 选择相关且实际可用的技能，例如：
 
-- `oil-ui`：方向探索、真实基线和方案比较。
 - `impeccable`：专项界面精修、审查与组件提取。
 - `ui-ux-pro-max`：可选的设计领域或技术栈检索。
 - `wxt-browser-extensions`：项目采用 WXT 时的扩展生命周期、注入和性能规则。
@@ -151,4 +150,4 @@ $ui-refine 按这张参考图重构设置页，使用项目现有 token 和组�
 
 ## 维护与来源
 
-核心方法独立整理自 Oil UI、Impeccable 及若干可选设计参考；本仓库没有复制它们的运行时或整套 playbook。具体冻结版本、许可证、借鉴点和未覆盖能力列于 [`references/source-notes.md`](references/source-notes.md)。扩展参考或自动化工具前，先定义支持平台、输入输出、依赖、成本、写回与恢复、失败边界，并用真实样例验证。
+核心方法参考 Impeccable 及若干可选设计资料，并由本技能独立整理；本仓库没有复制其运行时或整套 playbook。具体冻结版本、许可证、借鉴点和未覆盖能力列于 [`references/source-notes.md`](references/source-notes.md)。扩展参考或自动化工具前，先定义支持平台、输入输出、依赖、成本、写回与恢复、失败边界，并用真实样例验证。

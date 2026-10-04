@@ -2,14 +2,13 @@
 
 首版整理于 2026-10-04，依据已完成的源码研究，采用独立编写的工作流与平台摘要。未打包上游运行时、未复制整套 playbook；来源记录支持后续复核，不是运行依赖。普通任务按入口读取相应内置参考即可。
 
-## 核心来源
+## 主要来源
 
 | 来源与冻结快照 | 借鉴 | 保留的边界 |
 | --- | --- | --- |
-| [oil-ui](https://github.com/oil-oil/oil-ui/tree/205e7fa0551bdfa718a0abb1e5f5c551b9f9b22a)，0.12.0，MIT | 品类/主任务、现有方向与小改动分流、中文排版、真实基线、有限评审、视觉/交互分别验收 | 自包含方法；不继承更新/推广脚本；免费版的代码/状态实践需由项目及本技能补充 |
 | [Impeccable](https://github.com/pbakaus/impeccable/tree/e103efe779e2dd01274dabae83531fef00bf2563)，Apache-2.0 | 任务模式、专项精修、设计真源、状态恢复、共享组件提取、原生指引及证据意识 | 24 个 Agent 命令主要是模型流程；61 条 registry 规则不表示对所有平台/引擎全覆盖；首版未集成 Rust/live/comp 工具 |
 
-选取了研究清单的 S/C/V/I/R/Q/N/K/CW/AW 等模块，并合并为通用流程及平台参考；166 个研究条目不是本技能的 166 个独立自动化功能。
+参考源码与可选设计资料，抽取任务判断、专项精修、设计真源、状态恢复和证据验证等方法，整理为本技能独立的通用流程及平台参考。文档中的方法分类不代表集成了自动化运行时。
 
 ## 扩展参考
 
@@ -17,7 +16,6 @@
 | --- | --- | --- |
 | [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/09170eec67eefd46a7ae85de61b40c194020f997) | 冻结源码，MIT | 可选领域/栈检索；不强制替换现有规范 |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill/tree/ce26fc25c0e5e8cab638f883de62d9a86ee5e45b) | 冻结源码，MIT | 可选视觉尺度；按任务采用 |
-| [Oil UI Pro 功能对照](https://github.com/oil-oil/oil-ui) | README 对照表，2026-10-04 核验 | 方向差异检查、任务走查、限轮视觉评审；本技能自行定义评分锚点、硬门槛和停止条件，不复制 Pro 实现 |
 | `apple-design` | 已安装本地技能，未核验上游 commit；入口 SHA-256 `11840b24a11d7f94f39c6aaab074750ae4e4de4ef54ee4b1dd97e16ebd485e61` | 交互手感和减少动态效果；Web 示例需平台适配 |
 | `shadcn-ui` | 已安装本地技能，未核验上游 commit；入口 SHA-256 `2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304` | 当前 React 项目的合适组件原语 |
 | `wxt-browser-extensions` | 已安装本地技能，49 条指引；入口 SHA-256 `a92a1232432bdc613cf495f1abe9e4b24680f151b9be2baabe0ccc575ca15caf` | Chrome 载体、消息/storage、注入与生命周期；纠正 session 与跨重启需求的不一致 |
